@@ -1,5 +1,5 @@
-a = int(input("enter a number:"))
-fact = 1
-for i in range (1,a+1):
-    fact = fact *i
-print(fact)    
+a = int (input("enter the number range"))
+a = 0
+for i in range (0,a+1):
+    a = a+i
+print(a)    
