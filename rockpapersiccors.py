@@ -26,9 +26,9 @@ scissors = '''
 ---.__(___)
 '''
 random_toss = random.choice(["rock", "paper", "scissors"])
-if random_toss == rock:
+if random_toss == "rock":
     print(rock)
-elif random_toss == paper:
+elif random_toss == "paper":
     print(rock)
 else:
     print(scissors)
