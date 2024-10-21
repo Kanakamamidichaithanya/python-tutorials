@@ -6,6 +6,6 @@ while temp > 0:
     arm = arm + (rem*rem*rem)
     temp = temp//10
 if  a == arm:
-    print("is fib")
+    print("is arm")
 else :
-    print("not fib")          
+    print("not not arm")          

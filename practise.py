@@ -103,39 +103,85 @@
 
 
 
-def add(a,b):
-    return a + b
+# def add(a,b):
+#     return a + b
   
-def subract(a,b):
-    return a - b
+# def subract(a,b):
+#     return a - b
     
-def multiply(a,b):
-   return a * b
+# def multiply(a,b):
+#    return a * b
  
-def divide(a,b):
-   return a / b
+# def divide(a,b):
+#    return a / b
  
 
-print("enter the operation:\n" \
-"1.add\n" \
-"2.subract\n" \
-"3.multiplication\n" \
-"4.divide")
+# print("enter the operation:\n" \
+# "1.add\n" \
+# "2.subract\n" \
+# "3.multiplication\n" \
+# "4.divide")
 
-option_select = int(input("enter you option for operation "))
-a = int(input("enter the first number"))
-b = int(input("enter the second number"))
-if option_select == 1:
-    result = add(a, b)
-    print(f"The result of addition is: {result}")
-elif option_select == 2:
-    result = subract(a, b)
-    print(f"The result of subtraction is: {result}")
-elif option_select == 3:
-    result = multiply(a, b)
-    print(f"The result of multiplication is: {result}")
-elif option_select == 4:
-    result = divide(a, b)
-    print(f"The result of division is: {result}")
-else:
-    print("Invalid option. Please select a valid operation.")
+# option_select = int(input("enter you option for operation "))
+# a = int(input("enter the first number"))
+# b = int(input("enter the second number"))
+# if option_select == 1:
+#     result = add(a, b)
+#     print(f"The result of addition is: {result}")
+# elif option_select == 2:
+#     result = subract(a, b)
+#     print(f"The result of subtraction is: {result}")
+# elif option_select == 3:
+#     result = multiply(a, b)
+#     print(f"The result of multiplication is: {result}")
+# elif option_select == 4:
+#     result = divide(a, b)
+#     print(f"The result of division is: {result}")
+# else:
+#     print("Invalid option. Please select a valid operation.")
+
+
+
+# with open("weather_data.csv") as data_file:
+#     data= data_file.readlines()
+# print(data)
+
+
+
+# a = int(input("enter a number"))
+# if (a %2 == 0):
+#     print("even number")
+# else:
+#     print("not a even number")    
+
+
+
+# a = int(input("enter a number"))
+# if (a %2 != 0):
+#     print("odd number")
+# else:
+#     print("not a odd number")   
+
+
+# a =int(input("Enter a number"))
+# for i in range(2,a):
+#     if (a % i == 0):
+#         print("not a prime number")
+#         break
+#     else:
+#         print("prime number")
+
+
+# a = 121
+# temp = a
+# rev = 0
+# while temp>0:
+#     rem = temp%10
+#     rev = rev * 10 + rem
+#     temp = temp// 10
+# if (a == rev):
+#     print("palindrome")
+# else:
+#     print("not a palindrome")    
+
+
