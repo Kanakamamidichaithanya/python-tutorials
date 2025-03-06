@@ -61,7 +61,7 @@
 '''program for removing a desired element'''
 # import array as arr
 # array = arr.array("i",[4,2,3,4])
-# element = int(input("enter hte element to remove:"))
+# element = int(input("enter the element to remove:"))
 # for i in array:
 #     if i == element:
 #         new_array = arr.array("i",[i for i in array if i!= element])
@@ -71,7 +71,7 @@
 '''program to append elemnt into the array'''
 # import array as arr
 # array = arr.array("i",[4,2,3,4])
-# element = int(input("enter hte element to add:"))
+# element = int(input("enter the element to add:"))
 # index = int(input("enter the index of the element:"))
 # new_array = arr.array("i", [])
 # for i in range(len(array)):
@@ -81,7 +81,7 @@
 # print("Array after insertion:", new_array)
 
 
-# '''program for accessing the elements in the array'''
+'''program for accessing the elements in the array'''
 # import array as arr
 # array = arr.array("i",[4,2,3,4])
 # element = int(input("enter the elemnt to access:"))

@@ -98,6 +98,14 @@
 # my_dog.bark()
 
 
+class Car:
+    def set_brand(self, brand):  # 'self' refers to the current object
+        self.brand = brand  # Store brand inside the object
+    
+    def show_brand(self):
+        print(f"The car brand is {self.brand}")
+
+
     
       
 
