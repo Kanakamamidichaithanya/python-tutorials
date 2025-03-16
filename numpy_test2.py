@@ -176,7 +176,7 @@
 # print(count_7.count(7))
 # print("the probability of 7 is:", count_7.count(7) / 10000)
 
-import numpy_test2 as np
-array = np.arange(0,10)
-sort = np.sort(array)[::-1]
-print(sort[1])
+# import numpy_test2 as np
+# array = np.arange(0,10)
+# sort = np.sort(array)[::-1]
+# print(sort[1])

@@ -9,7 +9,7 @@ def multiply(a,b):
  ##########
 def divide(a,b):
    return a / b
- 
+  
 
 print("enter the operation:\n" \
 "1.add\n" \
