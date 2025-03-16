@@ -361,10 +361,11 @@
 # print(slice_of_array)
 # print(array)
 
-import numpy as np
-array = np.arange(50).reshape(5,10)
-# print(array)
-sub=(array[1:4])
-# print(sub)
-sub2 = sub[0:,1:4]
-print(sub2)
+# import numpy_test as np
+# array = np.arange(50).reshape(5,10)
+# # print(array)
+# sub=(array[1:4])
+# # print(sub)
+# sub2 = sub[0:,1:4]
+# print(sub2)
+
