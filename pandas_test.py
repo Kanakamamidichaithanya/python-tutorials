@@ -219,3 +219,86 @@
 # df = pd.DataFrame(data, columns=["date", "stock", "price"])
 # df["moving average"] = df["price"].rolling(window = 90).mean()
 # print(df.head())
+
+
+# import pandas as pd
+
+# data = {'Name': ['John', 'Alice', 'Bob', 'Eve', 'Charlie'], 
+#         'Age': [25, 30, 22, 35, 28], 
+#         'Gender': ['Male', 'Female', 'Male', 'Female', 'Male'], 
+#         'Salary': [50000, 55000, 40000, 70000, 48000]}
+
+# df = pd.DataFrame(data)
+# df["weight"] = [1,2,3,4,5]
+# # Display the entire DataFrame
+# print(df["Salary"])
+
+# import pandas as pd
+# df = pd.read_csv("C:/Users/kanak/Documents/Chaithanya Education/self documentation/PANDAS/nba.csv", index_col="Name" ).head(5)
+# print(df.loc["Avery Bradley"])
+
+
+# import pandas as pd
+
+# player_list = [['M.S.Dhoni', 36, 75, 5428000],
+#                ['A.B.D Villers', 38, 74, 3428000],
+#                ['V.Kohli', 31, 70, 8428000],
+#                ['S.Smith', 34, 80, 4428000],
+#                ['C.Gayle', 40, 100, 4528000],
+#                ['J.Root', 33, 72, 7028000],
+#                ['K.Peterson', 42, 85, 2528000]]
+
+# df = pd.DataFrame(player_list, columns=['Name', 'Age', 'Weight', 'Salary'])
+# print(df.loc[(df["Salary"]>5000000) & (df["Age"] >30) , ["Name","Weight"]])
+
+# import pandas as pd 
+  
+# data1 = {'Name':['Jai', 'Princi', 'Gaurav', 'Anuj'], 
+#         'Age':[27, 24, 22, 32], 
+#         'Address':['Nagpur', 'Kanpur', 'Allahabad', 'Kannuaj'], 
+#         'Qualification':['Msc', 'MA', 'MCA', 'Phd'],
+#         'Mobile No': [97, 91, 58, 76]} 
+
+# data2 = {'Name':['Gaurav', 'Anuj', 'Dhiraj', 'Hitesh'], 
+#         'Age':[22, 32, 12, 52], 
+#         'Address':['Allahabad', 'Kannuaj', 'Allahabad', 'Kannuaj'], 
+#         'Qualification':['MCA', 'Phd', 'Bcom', 'B.hons'],
+#         'Salary':[1000, 2000, 3000, 4000]} 
+  
+# df = pd.DataFrame(data1,index=[0, 1, 2, 3])
+  
+# df1 = pd.DataFrame(data2, index=[2, 3, 6, 7]) 
+  
+  
+# print(pd.concat((df,df1),keys= ["x","y"]))
+
+
+# import pandas as pd
+# df = pd.read_csv("C:/Users/kanak/Documents/Chaithanya Education/self documentation/PANDAS/people_data.csv")
+# print(df)
+
+# import pandas as pd
+# names = ["chaithu", "naani", "mom", "dad"]
+# ages = [20,24,48,54]
+# data = {"name" : names, "age" : ages}
+# df = pd.DataFrame(data)
+# df.to_csv("sample.csv")
+
+
+# import pandas as pd
+# users = {
+#     "Name": ["Amit", "Cody", "Drew"],
+#     "Age": [20, 21, 25]
+# }
+# df = pd.DataFrame(users)
+# # df.to_csv("Users.csv", sep="\t", index=False)
+# # new_df = pd.read_csv("Users.csv", sep="\t")
+# # new_df
+# print(df)
+
+
+import pandas as pd
+
+df = pd.read_csv("C:/Users/kanak/Documents/Chaithanya Education/self documentation/PANDAS/employees.csv")
+df = df.dropna(how="any")
+print(df)

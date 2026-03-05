@@ -50,10 +50,32 @@
 # print(s)
 
 
-import numpy_test2 as np 
-var = [1, 2, 3, 4]
-arr = np.array(var)
-shaping = np.reshape(arr,[2,2])
-transpose = np.transpose(shaping)
-print(transpose)
-print(transpose.flatten)
+# import numpy_test2 as np 
+# var = [1, 2, 3, 4]
+# arr = np.array(var)
+# shaping = np.reshape(arr,[2,2])
+# transpose = np.transpose(shaping)
+# print(transpose)
+# print(transpose.flatten)
+
+# import pikepdf
+
+# pdf_path = r"C:\Users\kanak\Documents\kanakamamidi chaithanya.pdf"
+# output_path = r"C:\Users\kanak\Documents\kanakamamidi_chaithanya_cleaned.pdf"
+
+# with pikepdf.open(pdf_path) as pdf:
+#     # Access the metadata dictionary
+#     pdf.docinfo.clear()  # Removes all document info fields (Author, Title, etc.)
+#     pdf.save(output_path)
+
+# print("✅ All metadata cleared and saved as cleaned PDF.")
+
+
+# import numpy as np
+# arr = np.array([1,2,3,4,5])
+# print(arr)
+
+import numpy as np
+arr = np.arange(0,9).reshape(3,3)
+arr1 = np.arange(10,19).reshape(3,3)
+print(np.hsplit(arr,3))
