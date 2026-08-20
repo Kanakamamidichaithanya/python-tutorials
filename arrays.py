@@ -127,8 +127,3 @@
 # for i in range(len(array)):
 #     rev_array.append(array[len(array)-1 -i]) 
 # print(rev_array)
-
-
-
-
-        
