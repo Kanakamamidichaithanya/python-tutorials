@@ -297,8 +297,6 @@
 # print(df)
 
 
-import pandas as pd
-
-df = pd.read_csv("C:/Users/kanak/Documents/Chaithanya Education/self documentation/PANDAS/employees.csv")
-df = df.dropna(how="any")
+import pandas  as pd
+df = pd.read_csv("C:/Users/kanak/Downloads/nba.csv")
 print(df)

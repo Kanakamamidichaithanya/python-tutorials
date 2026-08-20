@@ -90,10 +90,3 @@
 #             return n * factorial(n-1)
 # print(factorial(5))
 
-
-#finding fibonocci using recursion
-def fib(n):
-    a = 0
-    b = 0
-    while n > 0:
-        return 
